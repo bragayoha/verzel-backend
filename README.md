@@ -4,13 +4,13 @@
 `git clone https://github.com/bragayoha/verzel-backend.git`
 `cd verzel-backend`
 
-## **Instale as Dependências:**
+**Instale as Dependências:**
 
 `pip install -r requirements.txt`
 
 # Configuração do Banco de Dados
 
-## **Execute as Migrações do Banco de Dados:**
+**Execute as Migrações do Banco de Dados:**
 
 `flask db init`
 `flask db migrate`
@@ -18,17 +18,17 @@
 
 # Execução da Aplicação
 
-## **Execute a Aplicação:**
+**Execute a Aplicação:**
 
 `flask run` \*_A aplicação estará disponível em http://localhost:5000._
 
 # Docker (Opcional)
 
-## **Construa a Imagem Docker:**
+**Construa a Imagem Docker:**
 
 `docker build -t verzel-backend .`
 
-## **Execute o Contêiner Docker:**
+**Execute o Contêiner Docker:**
 
 `docker run -p 5000:5000 verzel-backend` \*_A aplicação estará disponível em http://localhost:5000._
 
