@@ -6,6 +6,7 @@ filelock==3.13.1
 Flask==3.0.0
 Flask-JWT-Extended==4.5.3
 Flask-SQLAlchemy==3.1.1
+Flask-Uploads==0.2.1
 greenlet==3.0.1
 itsdangerous==2.1.2
 Jinja2==3.1.2
@@ -14,5 +15,7 @@ platformdirs==3.11.0
 PyJWT==2.8.0
 SQLAlchemy==2.0.23
 typing_extensions==4.8.0
+validate-docbr==1.10.0
+validate-email-address==1
 virtualenv==20.24.6
 Werkzeug==3.0.1
